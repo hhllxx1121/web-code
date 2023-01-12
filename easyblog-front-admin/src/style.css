@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+a.a-link{
+    text-decoration: none;
+    color: rgb(3, 93, 196);
+}
+.a-link{
+    color: #1890ff;
+    text-decoration: none;
+}
+.not-allow{
+    cursor: not-allowed;
+    color: #bfbfbf;
+}
+.no-data{
+    text-align: center;
+    color: rgb(187, 185, 185);
+    font-size: 14px;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(239, 239, 239);
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #bfbfbf;
+    border-radius: 10px;
+}
+
+::-webkit-slider-thumb:hover{
+    background: #bfbfbf;
+}
+
+::-webkit-scrollbar-corner{
+    background: #bfbfbf;
+}
